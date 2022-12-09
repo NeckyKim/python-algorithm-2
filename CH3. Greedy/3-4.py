@@ -1,5 +1,6 @@
 # 3-4. 1이 될 때까지
 
+
 def solution(n, k):
     count = 0
 

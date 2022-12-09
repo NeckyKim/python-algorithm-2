@@ -1,6 +1,7 @@
 # 3-2. 큰 수의 법칙
 # 배열의 크기: n, 총 더하는 횟수: m, 한 수를 연속으로 더할 수 있는 횟수: k
 
+
 def solution(numbers, m, k):
     numbers.sort()
 

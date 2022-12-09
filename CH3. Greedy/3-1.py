@@ -1,5 +1,6 @@
 # 3-1. 거스름돈
 
+
 def solution(price):
     count = 0
 

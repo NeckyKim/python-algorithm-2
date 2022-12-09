@@ -1,5 +1,6 @@
 # 3-5. 곱하기 혹은 더하기
 
+
 def solution(strings):
     numbers = list(map(int, list(strings)))
 
