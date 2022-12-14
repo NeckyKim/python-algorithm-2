@@ -1,6 +1,9 @@
 # 3-4. 1이 될 때까지
 
 
+n, k = map(int, input().split())
+
+
 def solution(n, k):
     count = 0
 
@@ -21,5 +24,4 @@ def solution(n, k):
     return count
 
 
-n, k = map(int, input().split())
 print(solution(n, k))

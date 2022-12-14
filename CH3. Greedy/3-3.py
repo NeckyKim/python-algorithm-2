@@ -1,6 +1,14 @@
 # 3-3. 숫자 카드 게임
 
 
+n, m = map(int, input().split())
+
+cards = []
+
+for i in range(0, n):
+    cards.append(list(map(int, input().split())))
+
+
 def solution(cards):
     answer = cards[0]
 
@@ -10,12 +18,5 @@ def solution(cards):
 
     return min(answer)
 
-
-n, m = map(int, input().split())
-
-cards = []
-
-for i in range(0, n):
-    cards.append(list(map(int, input().split())))
 
 print(solution(cards))

@@ -2,6 +2,11 @@
 # 배열의 크기: n, 총 더하는 횟수: m, 한 수를 연속으로 더할 수 있는 횟수: k
 
 
+n, m, k = map(int, input().split())
+
+numbers = list(map(int, input().split()))
+
+
 def solution(numbers, m, k):
     numbers.sort()
 
@@ -21,11 +26,6 @@ def solution(numbers, m, k):
     answer = count * number1 + (m - count) * number2
 
     return answer
-
-
-n, m, k = map(int, input().split())
-
-numbers = list(map(int, input().split()))
 
 
 print(solution(numbers, m, k))
